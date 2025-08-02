@@ -7,11 +7,14 @@ import ComponentController from '../02-Forms/ComponentController'
 import FormPage from '../02-Forms/FormPage'
 import HandleCheckbox from '../02-Forms/HandleCheckbox'
 import RadioAndDropdown from '../02-Forms/RadioAndDropdown'
+import LoopsWithMap from '../03-Loops-Jsx/LoopsWithMap'
+import NestedLoop from '../03-Loops-Jsx/NestedLoop'
+import ReuseComponent from '../03-Loops-Jsx/ReuseComponent'
 
 function App() {
   return (
     <div>
-      <RadioAndDropdown/>
+      <NestedLoop/>
     </div>
   )
 }
