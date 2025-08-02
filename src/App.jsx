@@ -3,11 +3,15 @@ import King from '../01-Basic-Notes/King'
 import Props from '../01-Basic-Notes/Props'
 import State from '../01-Basic-Notes/State'
 import Toggle from '../01-Basic-Notes/Toggle'
+import ComponentController from '../02-Forms/ComponentController'
+import FormPage from '../02-Forms/FormPage'
+import HandleCheckbox from '../02-Forms/HandleCheckbox'
+import RadioAndDropdown from '../02-Forms/RadioAndDropdown'
 
 function App() {
   return (
     <div>
-      <Toggle/>
+      <RadioAndDropdown/>
     </div>
   )
 }
