@@ -10,11 +10,14 @@ import RadioAndDropdown from '../02-Forms/RadioAndDropdown'
 import LoopsWithMap from '../03-Loops-Jsx/LoopsWithMap'
 import NestedLoop from '../03-Loops-Jsx/NestedLoop'
 import ReuseComponent from '../03-Loops-Jsx/ReuseComponent'
+import Counter from '../04-Hooks/Counter'
+import HandlePropsSideEffects from '../04-Hooks/HandlePropsSideEffects'
+import UseEffectEx from '../04-Hooks/UseEffectEx'
 
 function App() {
   return (
     <div>
-      <NestedLoop/>
+      <Counter/>
     </div>
   )
 }
