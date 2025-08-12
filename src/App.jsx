@@ -13,11 +13,14 @@ import ReuseComponent from '../03-Loops-Jsx/ReuseComponent'
 import Counter from '../04-Hooks/Counter'
 import HandlePropsSideEffects from '../04-Hooks/HandlePropsSideEffects'
 import UseEffectEx from '../04-Hooks/UseEffectEx'
+import StyledComponents from '../05-Styles/StyledComponents'
+import ListItems from '../06-Fragments/ListItems'
+import ChildrenEg from '../07-Props/ChildrenEg'
 
 function App() {
   return (
     <div>
-      <Counter/>
+      <ChildrenEg/>
     </div>
   )
 }
