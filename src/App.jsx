@@ -16,11 +16,12 @@ import UseEffectEx from '../04-Hooks/UseEffectEx'
 import StyledComponents from '../05-Styles/StyledComponents'
 import ListItems from '../06-Fragments/ListItems'
 import ChildrenEg from '../07-Props/ChildrenEg'
+import FullPage from '../08-ContextAPI/FullPage'
 
 function App() {
   return (
     <div>
-      <ChildrenEg/>
+      <FullPage />
     </div>
   )
 }
